@@ -12,9 +12,8 @@ Role Variables
 
 | Name    | Description    | Required    | Default    | Values | Examples |
 |:--|:--|:-:|:-:|:-:|:--|
-| foreman_repositories_use_koji | Foreman Koji repository | No | False | - | False |
-| foreman_repositories_use_release | Foreman release | No | True | - | True |
 | foreman_repositories_version | Foreman version | No | nightly | - | nightly |
+| foreman_repositories_release | Foreman environment | No | release | - | release |
 
 Dependencies
 ------------
